@@ -14,8 +14,12 @@ class Noeud {
             } else {
                 this.gauche.ajouterValeur(v)
                 //A faire : améliorer l'emplacement de la nouvelle valeur
+                //Choisir aléatoirement gauche ou droite
             }
         }
+    }
+    afficherNoeud(){
+        //Afficher le noeud et ses enfants
     }
 }
    
@@ -28,6 +32,7 @@ class Arbre {
     }
     afficherArbre() {
         
+        // A faire: Une fonction d'affichage de l'arbre qui appelle une fonction afficherNoeud()
     }
 }
 
@@ -41,4 +46,3 @@ monArbre.ajouterValeur(9)
 monArbre.ajouterValeur(1)
 
 console.log(monArbre)
-// A faire: Une fonction d'affichage de l'arbre

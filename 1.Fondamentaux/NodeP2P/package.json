@@ -1,0 +1,14 @@
+{
+  "name": "nodep2p",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "@Xalava <xavier@bricodeur.com> (https://github.com/xalava)",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
